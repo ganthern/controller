@@ -19,7 +19,7 @@ S8 : U"1";
 S9 : U"Equals";
 
 # Top-Middle Row
-S12 : U"Function1";
+S12 : U"P1";
 S13 : U"T";
 S14 : U"R";
 S15 : U"E";
@@ -40,7 +40,7 @@ S28 : U"LAlt";
 S29 : U"LCtrl";
 
 # Bottom-Middle Row
-S30 : U"Function2";
+S30 : U"P2";
 S31 : U"B";
 S32 : U"V";
 S33 : U"C";
@@ -55,9 +55,9 @@ S39 : U"Delete";
 S40 : U"Backspace";
 
 # Bottom Row
-S41 : U"Function5";
-S42 : U"Function4";
-S43 : U"Function3";
+S41 : U"P5";
+S42 : U"P4";
+S43 : U"P3";
 S44 : U"Backtick";
 S45 : U"LGui";
 

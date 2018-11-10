@@ -1,0 +1,61 @@
+# Infinity Ergodox Left Hand
+
+Name = "Infinity Ergodox Left Hand";
+Version = 0.3;
+Author = "ganthern";
+KLL = 0.5.6;
+
+# Modified Date
+Date = 2017-11-15;
+
+# Top Row
+U"Esc"      : shiftedKey(0x00, 0x64, 0x00, 0x23, 4);
+U"5"        : shiftedKey(0x01, 0x25, 0x00, 0x22, 5);
+U"4"        : shiftedKey(0x02, 0x24, 0x00, 0x21, 6);
+U"3"        : shiftedKey(0x02, 0x25, 0x00, 0x20, 7);
+U"2"        : shiftedKey(0x01, 0x30, 0x00, 0x1F, 8);
+U"1"        : shiftedKey(0x01, 0x27, 0x00, 0x1E, 9);
+U"Equals"   : U0x29;
+
+# Top-Middle Row
+U"P1"       : U0x4A; #top tall key
+U"T"        : U0x1D;
+U"R"        : U0x13;
+U"E"        : shiftedKey(0x00, 0x37, 0x01, 0x2D, 10);
+U"W"        : shiftedKey(0x00, 0x36, 0x01, 0x1E, 11);
+U"Q"        : shiftedKey(0x01, 0x36, 0x01, 0x37, 12);
+U"Backslash": U0xE0 + U0x16;
+
+# Middle Row
+U"G"        : U0x0C;
+U"F"        : U0x18;
+U"D"        : U0x08;
+U"S"        : U0x12;
+U"A"        : U0x04;
+U"Tab"      : filterMod(2);
+
+# Top Thumb Cluster
+U"LCtrl"    : U0xE0 + U0x06;
+U"LAlt"     : U0xE0 + U0x1B;
+
+# Bottom-Middle Row
+U"P2"       : U0x4B; #lower tall key
+U"B"        : U0x1B;
+U"V"        : U0x0E;
+U"C"        : U0x0D;
+U"X"        : U0x14;
+U"Z"        : U0x52;
+U"LShift"   : filterMod(0);
+
+# Bottom Thumb Cluster
+U"Home"     : U0x49;
+U"End"      : U0xE3;
+U"Delete"   : U0x2B; # right tall key
+U"Backspace": U0x2C; # left tall key
+
+# Bottom Row
+U"P5"       : U0xE2;
+U"P4"       : U0xE0;
+U"P3"       : U0x4F;
+U"Backtick" : U0x51;
+U"LGui"     : U0x50;

@@ -1,0 +1,62 @@
+# Infinity Ergodox Right Hand
+
+Name = "Infinity Ergodox Right Hand";
+Version = 0.3;
+Author = "ganthern";
+KLL = 0.5;
+
+# Modified Date
+Date = 2017-11-15;
+
+
+# Top Row
+U"P6"       : shiftedKey(0x01, 0x64, 0x00, 0x24, 13);
+U"6"        : shiftedKey(0x01, 0x26, 0x00, 0x25, 14);
+U"7"        : shiftedKey(0x02, 0x27, 0x00, 0x26, 15);
+U"8"        : shiftedKey(0x02, 0x26, 0x00, 0x27, 16);
+U"9"        : shiftedKey(0x00, 0x30, 0x02, 0x64, 17);
+U"0"        : shiftedKey(0x01, 0x24, 0x02, 0x2D, 18);
+U"Minus"    : shiftedKey(0x01, 0x23, 0x01, 0x22, 19);
+
+# Top-Middle Row
+U"LBrace"   : U0x4D; # top tall key
+U"Y"        : U0x09;
+U"U"        : U0x0A;
+U"I"        : U0x06;
+U"O"        : U0x15;
+U"P"        : U0x0F;
+U"RBRace"   : shiftedKey(0x01, 0x31, 0x01, 0x1F, 20);
+
+# Middle Row
+U"H"        : U0x07;
+U"J"        : U0x0B;
+U"K"        : U0x17;
+U"L"        : U0x11;
+U"Semicolon": U0x16;
+U"Quote"    : U0x38;
+
+# Top Thumb Cluster
+U"RAlt" : U0xE0 + U0x19;
+U"RCtrl": U0x46;
+
+# Bottom-Middle Row
+U"P7"       : U0x4E; #bottom tall key
+U"N"        : U0x05;
+U"M"        : U0x10;
+U"Comma"    : U0x1A;
+U"Period"   : U0x19;
+U"Slash"    : U0x1C;
+U"RShift"   : filterMod(1);
+
+# Bottom Thumb Cluster
+U"PageUp"   : U0x4C;
+U"PageDown" : U0x2A;
+U"Enter"    : U0x58; # right tall key
+U"Space"    : U0x28; # left tall key
+
+# Bottom Row
+U"Left"     : shiftedKey(0x01, 0x21, 0x02, 0x30, 21);
+U"Down"     : shiftedKey(0x00, 0x31, 0x00, 0x2E, 22);
+U"Up"       : shiftedKey(0x02, 0x14, 0x00, 0x35, 23);
+U"Right"    : shiftedKey(0x00, 0x2D, 0x01, 0x35, 24);
+U"RGui"     : U"FUN1";

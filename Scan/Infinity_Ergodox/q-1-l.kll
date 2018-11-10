@@ -1,0 +1,23 @@
+# Infinity Ergodox Left Hand
+
+Name = "Infinity Ergodox Left Hand";
+Version = 0.3;
+Author = "ganthern";
+KLL = 0.5.6;
+
+# Modified Date
+Date = 2017-11-15;
+
+# Top Row
+U"Esc"      : U0x3F;
+U"5"        : U0x3E;
+U"4"        : U0x3D;
+U"3"        : U0x3C;
+U"2"        : U0x3B;
+U"1"        : U0x3A;
+
+# Middle Row
+U"F"        : U0x2F;
+U"S"        : U0x33;
+U"A"        : U0x34;
+

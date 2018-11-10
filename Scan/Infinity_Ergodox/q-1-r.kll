@@ -1,0 +1,38 @@
+# Infinity Ergodox Right Hand
+
+Name = "Infinity Ergodox Right Hand";
+Version = 0.3;
+Author = "ganthern";
+KLL = 0.5;
+
+# Modified Date
+Date = 2017-11-15;
+
+
+# Top Row
+U"FUN6"     : U0x40;
+U"6"        : U0x41;
+U"7"        : U0x42;
+U"8"        : U0x43;
+U"9"        : U0x44;
+U"0"        : U0x45;
+
+# Top-Middle Row
+U"U"        : U0x1E;
+U"I"        : U0x1F;
+U"O"        : U0x20;
+
+# Middle Row
+U"J"        : U0x21;
+U"K"        : U0x22;
+U"L"        : U0x23;
+
+# Bottom-Middle Row
+U"M"        : U0x24;
+U"Comma"    : U0x25;
+U"Period"   : U0x26;
+
+# Bottom Row
+U"Left"     : U0x27;
+U"Down"     : U0x37;
+U"Up"       : U0x58;

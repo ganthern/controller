@@ -10,7 +10,7 @@ Date = 2017-11-15;
 
 
 # Top Row
-S3 : U"Function6";
+S3 : U"P6";
 S4 : U"6";
 S5 : U"7";
 S6 : U"8";
@@ -40,7 +40,7 @@ S28 : U"RAlt";
 S29 : U"RCtrl";
 
 # Bottom-Middle Row
-S30 : U"Function7";
+S30 : U"P7";
 S31 : U"N";
 S32 : U"M";
 S33 : U"Comma";
@@ -152,4 +152,3 @@ S[39] <= x:126.4;
 S[28] <= x:154.95;
 S[37] <= x:147;
 S[38] <= x:139.8;
-
